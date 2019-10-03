@@ -1,0 +1,7 @@
+apiVersion: samplecontroller.ponzmild.net/v1alpha1
+kind: Foo
+metadata:
+  name: foo-sample
+spec:
+  deploymentName: example-foo-bar
+  replicas: 2
